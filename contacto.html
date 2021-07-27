@@ -1,0 +1,107 @@
+<!Doctype html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="description" content="Rombo Agency. Ponte en contacto con nuestra agencia de freelance para más información sobre nuestros servicios."/>
+        <meta name="keywords" content="Rombo Agency, Rombo, Agency, Freelance"/>
+        <link rel="stylesheet" type="text/css" href="css\contactoestilo.css" />
+        <title>Rombo Agency - Contacto </title>
+
+    </head>
+
+
+    <body>
+
+
+        <div class="principal-container">
+
+            <!-----------------CABECERA----------------->
+            <header>
+                
+                    <div class="logo">
+                        <img src="img/logo.png" alt="Logo de Rombo Agency" title="Logo de Rombo Agency">
+                    </div>
+
+                    <div class="redes">
+                        <div class="facebook"> 
+                            <img src="img/facebook.png" alt="Facebook" title="Facebook">
+                        </div>
+                                
+                        <div class="instagram"> 
+                            <img src="img/instagram.png" alt="Instagram" title="Instagram">
+                        </div>
+                    </div>
+            
+            </header>
+            <!-----------------FIN DE CABECERA----------------->
+                    <!-----------------INICIO DE NAV----------------->
+            
+                    <nav>
+                
+                        <div class="lista">
+                    
+                                <ul> 
+                                    <li class="lista1"> <a href="index.html" target="_blank"> Inicio </a> </li>
+        
+                                    <li class="lista2"> <a href="#" target="_blank">Quienes somos </a> </li>
+        
+                                    <li class="lista3"> <a href="#" target="_blank"> Rankings </a> </li>
+        
+                                    <li class="lista4"> <a href="#" target="_blank">  Portafolio </a> </li>
+        
+                                    <li class="lista5"> <a href="contacto.html" target="_blank">  Contactanos </a> </li>
+        
+                                </ul>
+                        </div>
+                                   
+                    </nav>
+                               
+                <!-----------------FIN DE NAV----------------->
+
+            <section>
+
+                <div class="formulario">
+
+                    <p> Contactanos </p>
+                    <form name="form_contact" action="php\contacto.php" method="post">
+                        <fieldset>
+                                <p>
+                                <label for="Nombre"> Nombre </label> 
+                                <input type="text" id="Nombre" name="Nombre" placeholder=" Escriba su nombre" required autocomplete="off">
+                                </p>
+
+                                <p>
+                                <label for="Apellido"> Apellido </label>
+                                <input type="text" id="Apellido" name="Apellido" placeholder=" Escriba su Apellido" required autocomplete="off">
+                                </p>
+                                
+                                <p>
+                                <label for="Telefono"> Teléfono </label> 
+                                <input type="tel" id="Telefono" name="Telefono" placeholder="(Código de área) Número" required autocomplete="off"> 
+                                </p>
+
+                                <p>
+                                <label for="Email"> E-mail </label>
+                                <input type="email" name="Email" id="Email" placeholder=" Ej: contacto@rombo.com" required autocomplete="off">
+                                </p>
+
+                                <p>
+                                <label for="Mensaje"> Mensaje </label>
+                                <textarea name="Mensaje" rows="10" cols="40" required autocomplete="off"> </textarea>
+                                </p>
+
+                                <p>
+                                <input type="submit" value="Enviar" id="Enviar" name="Enviar">   
+                                </p>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+    <script src="js\contacto.js"> </script>
+    </body>
+
+</html>

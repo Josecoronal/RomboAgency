@@ -1,0 +1,313 @@
+* {
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/* INICIO DEL HEADER*/
+
+body{
+    background-image: url(../img/registrobg.jpg);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    position: relative;
+}
+
+.principal-container {
+    width: 100%;
+    height: 50%;
+    margin:0px 0px;
+    padding: 0px 0px;
+    background-color: #1b0b33;
+    display: center;
+    align-items: center; 
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #ea4c1c ;
+    float: left;
+    margin: 0px auto;
+    padding: 0px auto;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo {
+    width: 130px;
+    height: auto;
+    margin: 0px auto;
+    padding:0px;
+    border-radius: 100px;
+    float: left;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+    padding: 5px 20px;
+}
+
+header .redes {
+    width: 5%;
+    height: 100%;
+    float: right;
+}
+
+.facebook {
+    float: inline-block;
+    margin-top: 5px;
+}
+
+.facebook img {
+    display: right;
+    width: 30px;
+    height: 30px;
+}
+
+.instagram {
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.instagram img {
+    width: 30px;
+    height: 30px;
+}
+
+/* FIN DEL HEADER*/
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/* INICIO DEL NAV */
+
+nav { 
+    width: 100%;
+    height: auto;
+    margin:auto;
+    background-color:#ea4c1c ;
+    float: left;
+    position: fixed;
+    z-index: 100;
+    margin-top: 80px;
+}
+
+.lista {
+    width: 100%;
+    align-items: center;
+    margin:auto;
+    overflow: hidden;
+    
+}
+
+.lista ul {
+    width: 100%;
+    height: auto;
+    float: center;
+    margin: auto;
+    list-style: none;
+    align-items: center;
+}
+
+.lista li {
+    margin: auto;
+    width: 20%;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.lista a{  
+    text-decoration: none;
+    color: black;
+    display:block;
+} 
+
+.lista1 :hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s;
+    
+}
+
+.lista2 :hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s;
+    
+}
+
+.lista3 :hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s;
+    
+}
+
+.lista4 :hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s;
+    
+}
+
+.lista5 :hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s;
+    
+}
+
+/* FIN DEL NAV */
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/* INICIO DEL FORMULARIO */
+
+.formulario {
+    width: 100%;
+    height: auto;
+    margin: 180px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 10;
+    align-items: center;
+    float: center;
+    color: black;
+}
+
+.formulario > p {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    display: center;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+legend{
+    display: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+fieldset{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+form p{
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+label{
+    margin: auto;
+    padding: auto;
+    display: center;
+    color: black;
+}
+
+input{
+    width: 60%;
+    height: 25px;
+    margin: auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+textarea{
+    margin: auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+input #Enviar{
+    background-color: salmon;
+}
+
+/*
+table{
+    text-align: center;
+    width:100%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px black solid;
+    color: black;
+    padding:15px 0px 15px 0px;
+}
+
+tr {
+    width: 50%;
+    margin: auto;
+    padding:15px 0px 15px 0px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+td {
+    margin: auto;
+    padding:15px 0px 15px 0px;
+    font-size: 35px; 
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: right;
+}
+
+input{
+    width: 70%;
+    height: 35px;
+    float: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 25px; 
+    text-align: center;
+}
+
+textarea {
+    width: 70%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#Enviar {
+    float:center;
+}
+*/
